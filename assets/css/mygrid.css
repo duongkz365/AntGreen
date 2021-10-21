@@ -1,0 +1,372 @@
+
+/* phần tạo grid */
+.grid {
+    width: 100%;
+    display: block;
+}
+
+
+.grid.wide {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -4px;
+    margin-right: -4px;
+}
+
+
+/* column */
+.column {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.column__mobile-0 {
+    display: none;
+}
+.column__mobile-1 {
+    flex: 0 0 8.33333%;
+    max-width: 8.33333%;
+}
+.column__mobile-2 {
+    flex: 0 0 16.66667%;
+    max-width: 16.66667%;
+}
+.column__mobile-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+.column__mobile-4 {
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+}
+.column__mobile-5 {
+    flex: 0 0 41.66667%;
+    max-width: 41.66667%;
+}
+.column__mobile-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.column__mobile-7 {
+    flex: 0 0 58.33333%;
+    max-width: 58.33333%;
+}
+.column__mobile-8 {
+    flex: 0 0 66.66667%;
+    max-width: 66.66667%;
+}
+.column__mobile-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+}
+.column__mobile-10 {
+    flex: 0 0 83.33333%;
+    max-width: 83.33333%;
+}
+.column__mobile-11 {
+    flex: 0 0 91.66667%;
+    max-width: 91.66667%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column__mobile-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+
+@media (min-width: 740px) {
+    .row {
+        margin-left: -8px;
+        margin-right: -8px;
+    }
+    .column {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    .column__tablet-0 {
+        display: none;
+    }
+    .column__tablet-1,
+    .column__tablet-2,
+    .column__tablet-3,
+    .column__tablet-4,
+    .column__tablet-5,
+    .column__tablet-6,
+    .column__tablet-7,
+    .column__tablet-8,
+    .column__tablet-9,
+    .column__tablet-10,
+    .column__tablet-11,
+    .column__tablet-12 {
+        display: block;
+    }
+    .column__tablet-1 {
+        flex: 0 0 8.33333%;
+        max-width: 8.33333%;
+    }
+    .column__tablet-2 {
+        flex: 0 0 16.66667%;
+        max-width: 16.66667%;
+    }
+    .column__tablet-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .column__tablet-4 {
+        flex: 0 0 33.33333%;
+        max-width: 33.33333%;
+    }
+    .column__tablet-5 {
+        flex: 0 0 41.66667%;
+        max-width: 41.66667%;
+    }
+    .column__tablet-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .column__tablet-7 {
+        flex: 0 0 58.33333%;
+        max-width: 58.33333%;
+    }
+    .column__tablet-8 {
+        flex: 0 0 66.66667%;
+        max-width: 66.66667%;
+    }
+    .column__tablet-9 {
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+    .column__tablet-10 {
+        flex: 0 0 83.33333%;
+        max-width: 83.33333%;
+    }
+    .column__tablet-11 {
+        flex: 0 0 91.66667%;
+        max-width: 91.66667%;
+    }
+    .column__tablet-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    
+
+
+
+}
+@media (min-width: 1113px) {
+    .row {
+        margin-left: -12px;
+        margin-right: -12px;
+    }
+    .column {
+        padding-left: -12px;
+        padding-right: -12px;
+    }
+    .column__pc-0 {
+        display: none;
+    }
+    .column__pc-1,
+    .column__pc-2,
+    .column__pc-20,
+    .column__pc-2-5,
+    .column__pc-3,
+    .column__pc-4,
+    .column__pc-40,
+    .column__pc-4-5,
+    .column__pc-5,
+    .column__pc-6,
+    .column__pc-7,
+    .column__pc-8,
+    .column__pc-9,
+    .column__pc-10,
+    .column__pc-11,
+    .column__pc-12 {
+        display: block;
+    }
+    .column__pc-1 {
+        flex: 0 0 8.33333%;
+        max-width: 8.33333%;
+    }
+    .column__pc-2 {
+        flex: 0 0 16.66667%;
+        max-width: 16.66667%;
+    }
+    .column__pc-20 {
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+    .column__pc-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .column__pc-4 {
+        flex: 0 0 33.33333%;
+        max-width: 33.33333%;
+    }
+    .column__pc-40 {
+        flex: 0 0 40%;
+        max-width: 40%;
+    }
+    .column__pc-4-5 {
+        flex: 0 0 37.5%;
+        max-width: 37.5%;
+    }
+    .column__pc-5 {
+        flex: 0 0 41.66667%;
+        max-width: 41.66667%;
+    }
+    .column__pc-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .column__pc-7 {
+        flex: 0 0 58.33333%;
+        max-width: 58.33333%;
+    }
+    .column__pc-8 {
+        flex: 0 0 66.66667%;
+        max-width: 66.66667%;
+    }
+    .column__pc-9 {
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+    .column__pc-10 {
+        flex: 0 0 83.33333%;
+        max-width: 83.33333%;
+    }
+    .column__pc-11 {
+        flex: 0 0 91.66667%;
+        max-width: 91.66667%;
+    }
+    .column__pc-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+}
+
+@media (min-width:1024px) and (max-width: 1239px) {
+    /* màn phân giải thấp hơn 1200px */
+    .wide {
+        width: 984px; 
+    }
+    .wide.row {
+        margin-left: -12px;
+        margin-right: -12px;
+    }
+    .wide .row {
+        margin-left: -12px;
+        margin-right: -12px;
+
+    }
+    .wide .column {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .wide .column__pc-0 {
+        display: none;
+    }
+
+    .wide .column__pc-1,
+    .wide .column__pc-2,
+    .wide .column__pc-2-4,
+    .wide .column__pc-3,
+    .wide .column__pc-4,
+    .wide .column__pc-5,
+    .wide .column__pc-6,
+    .wide .column__pc-7,
+    .wide .column__pc-8,
+    .wide .column__pc-9,
+    .wide .column__pc-10,
+    .wide .column__pc-11,
+    .wide .column__pc-12 {
+        display: block;
+    }
+
+    .wide .column__pc-1 {
+        flex: 0 0 8.33333%;
+        max-width: 8.33333%;
+    }
+
+    .wide .column__pc-2 {
+        flex: 0 0 16.66667%;
+        max-width: 16.66667%;
+    }
+
+    .wide .column__pc-2-4 {
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+
+    .wide .column__pc-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+
+    .wide .column__pc-4 {
+        flex: 0 0 33.33333%;
+        max-width: 33.33333%;
+    }
+
+    .wide .column__pc-5 {
+        flex: 0 0 41.66667%;
+        max-width: 41.66667%;
+    }
+
+    .wide .column__pc-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .wide .column__pc-7 {
+        flex: 0 0 58.33333%;
+        max-width: 58.33333%;
+    }
+
+    .wide .column__pc-8 {
+        flex: 0 0 66.66667%;
+        max-width: 66.66667%;
+    }
+
+    .wide .column__pc-9 {
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+
+    .wide .column__pc-10 {
+        flex: 0 0 83.33333%;
+        max-width: 83.33333%;
+    }
+
+    .wide .column__pc-11 {
+        flex: 0 0 91.66667%;
+        max-width: 91.66667%;
+    }
+
+    .wide .column__pc-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+
+@media (min-width: 740px) and (max-width: 1023px)
+{
+    /* tablet và màn độ phân giải thấp */
+    .wide {
+        width: 644px;
+    }
+    
+}
+
+
+
